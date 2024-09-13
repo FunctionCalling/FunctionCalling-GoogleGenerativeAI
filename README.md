@@ -23,7 +23,7 @@ struct MyFunctionTools {
     }
 }
 
-// MARK: You can directly pass the tools generated from objects to the model in VertexAI.
+// MARK: You can directly pass the tools generated from objects to the model in GoogleGenerativeAI.
 
 let model = GenerativeModel(
     modelName: "gemini-1.5-flash",
