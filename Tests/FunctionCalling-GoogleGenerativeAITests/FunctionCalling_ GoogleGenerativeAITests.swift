@@ -1,7 +1,7 @@
 import XCTest
-@testable import FunctionCalling_generative_ai_swift
+@testable import FunctionCalling_GoogleGenerativeAI
 
-final class FunctionCalling_generative_ai_swiftTests: XCTestCase {
+final class FunctionCalling_GoogleGenerativeAITests: XCTestCase {
     func testExample() throws {
         // XCTest Documentation
         // https://developer.apple.com/documentation/xctest
