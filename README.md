@@ -48,7 +48,7 @@ let package = Package(
         )
     ],
     dependencies: [
-        .package(url: "https://github.com/fumito-ito/FunctionCalling-GoogleGenerativeAI", from: "0.0.1")
+        .package(url: "https://github.com/FunctionCalling/FunctionCalling-GoogleGenerativeAI", from: "0.0.1")
     ]
 )
 ```
