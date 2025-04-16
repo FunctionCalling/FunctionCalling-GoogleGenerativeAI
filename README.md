@@ -1,3 +1,9 @@
+# ⚠️ google-generative-ai has become deprecated. The same goes for this library. Please use [FunctionCalling-FirebaseVertexAI](https://github.com/FunctionCalling/FunctionCalling-FirebaseVertexAI)
+
+> [Deprecated] Google AI Swift SDK for the Gemini API
+> 
+> With Gemini 2.0, we took the chance to create a unified SDK for mobile developers who want to use Google's GenAI models (Gemini, Veo, Imagen, etc). As part of that process, we took all of the feedback from this SDK and what developers like about other SDKs in the ecosystem to direclty work with the Firebase SDK. We don't plan to add anything to this SDK or making any further changes. We know how disruptive an SDK change can be and don't take this change lightly, but our goal is to create an extremely simple and clear path for developers to build with our models so it felt necessary to make this change.
+
 # FunctionCalling-GoogleGenerativeAI
 
 This library simplifies the integration of the [FunctionCalling](https://github.com/fumito-ito/FunctionCalling) macro into [GoogleGenerativeAI](https://github.com/google-gemini/generative-ai-swift). By using this library, you can directly generate `Tool` objects from Swift native functions, which can then be specified as FunctionCalling when invoking VertexAI.
